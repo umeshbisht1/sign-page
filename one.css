@@ -1,0 +1,96 @@
+/* li{
+    display: inline;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+ul{
+    text-align: end;
+    background-color: black;
+    margin: 20px;
+}
+li:hover{
+    color: yellow;
+}
+a{
+    margin: 20px;
+    padding: 20px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left,red,blue);
+}
+.inner{
+    width: 400px;
+    margin: 0 auto;
+    position:relative;
+    top: 30%;
+   
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px aqua;
+    z-index: 2;
+}
+.signup h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.signup p{
+    font-size: 0.8rem;
+    color: blueviolet;
+}
+.signbody{
+    margin: 20px 0;
+  
+}
+.signbody p{
+    margin: 10px 0;
+}
+.signbody p label{
+    font-weight: bold;
+    display:block;
+}
+.signbody p input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.signbody p input[type="submit"]{
+
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signbody p input[type="submit"]:hover{
+color: aqua;
+}
+footer{
+    text-align: center;
+}
+.inner footer p a{
+    color: rgb(230, 11, 193);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to right,yellow ,aqua);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 100px;
+    right: 50px;
+}
